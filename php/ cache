@@ -1,0 +1,20 @@
+<?php
+if(isset($_GET['page'])) $page = intval($_GET['page']);
+else $page = 1 ;
+
+$cache = 'cache/index-'.$page.'.html';
+$expire = time() -3600 ;
+
+if(file_exists($cache) && filemtime($cache) > $expire)
+
+{
+   readfile($cache);
+}
+
+else
+
+{
+
+        //script de la mise en cache pour la page correspondante
+
+}
