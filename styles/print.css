@@ -1,1 +1,37 @@
-﻿
+﻿body { 
+  background-color :#fff;
+  font-family :Serif;
+  font-size :15pt;
+}
+
+p {
+  margin:1em 0.5em 0 2em;
+  font-size:0.8em;
+  color:#000;
+}
+
+#banner, #footer, #main-nav, #subscribe-form, #contact-form, #home img, #logo, #footer-logo{ /* Les éléments qui ne seront pas affichés  */
+  display :none;
+}
+
+#contenu a, a { 
+  color :#000;
+}
+
+img#about {
+  float:left;
+  width:50%;
+  margin:1em 1.5em 0.5em 1.5em;
+}
+
+#works img{
+  float:left;
+  max-width: 100%;
+  height: auto;
+}
+
+#team img {
+  max-width: 100%;
+  height: auto;
+  margin:1em 1.5em 0.5em 1.5em;
+}
